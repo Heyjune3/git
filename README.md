@@ -77,15 +77,19 @@ Developer Settions > 왼쪽 메뉴 최하단 스크롤> personal access token > 
     4.원격 저장소 업데이트 (git push)
 
 - 깃으로 관리하는 파일의 4가지 상태
-    - 추적이 안된 상태 (untracked)
-    - 추적이 된 상태 (tracked)
-        1. 수정 없음 (unmodified)
-        2. 수정 함 (modified)
-        3. 스테이지 됨 (staged)
+    - 추적이 안된 상태 (untracked) : add를 하지 않은 경우
+    - 추적이 된 상태 (tracked) : 이미 add가 된 경우
+        1. 수정 없음 (unmodified) : 변경사항 없으면
+        2. 수정 함 (modified) : 변경사항 있으면
+        3. 스테이지 됨 (staged) : 스테이징 하면
 
     - 예시
         - 새로운 파일을 만들었을 때
             - untracked(추적이 안된 상태)
         -add를 통해 스테이징
             -untracked -> staged
-
+        - commit을 통해 snapshot
+            -staged -> unmodified
+            - 스테이징 -> 수정없음
+        - 한번 add가 된 상태에서 파일 내용이 변경된 경우
+            - unmodified -> modified
