@@ -58,7 +58,8 @@ git remote add[원격저장소 이름][원격저장소 주소]
 - push : 로컬 저장소 -> 원격 저장소로 올리는 것
 - pull : 원격 저장소 -> 로컬 저장소로 내려받는 것
 
-Developer Settions > 왼쪽 메뉴 최하단 스크롤> personal access token > Genereate new token(classic)
+### 토큰 만들기
+- 우측 상단 프로필 아이콘 -> 제일 하단 Settings -> Developer Settings > 왼쪽 메뉴 최하단 스크롤> personal access token > Genereate new token(classic)
 - 기한, 권한 선택
 - 생성된 토큰은 더이상 보여지지 않기 때문으로 적용
 
