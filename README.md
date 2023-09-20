@@ -57,3 +57,11 @@ git remote add[원격저장소 이름][원격저장소 주소]
 - 원격 저장소 : GitHub에 업로드 된 Git 프로젝트
 - push : 로컬 저장소 -> 원격 저장소로 올리는 것
 - pull : 원격 저장소 -> 로컬 저장소로 내려받는 것
+
+Developer Settions > 왼쪽 메뉴 최하단 스크롤> personal access token > Genereate new token(classic)
+- 기한, 권한 선택
+- 생성된 토큰은 더이상 보여지지 않기 때문으로 적용
+
+### 소스트리에서 토큰 적용하기
+- 최상단 메뉴 [도구] => [옵션] => [인증]
+- 계정선택 => 편집 => 인증 : personal Access Token 선택 후 복사한 토큰 붙여넣기
